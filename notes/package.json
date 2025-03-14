@@ -1,0 +1,20 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "A simple notes app",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "html-webpack-plugin": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
+
